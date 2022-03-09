@@ -9,7 +9,8 @@ import {
 import { setContext } from "@apollo/client/link/context";
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navigator from "./components/Navigation/Navbar";
+// import Navigator from "./components/Navigation/Navbar";
+import { Navigator, Footer } from "./components";
 import { Home, Projects, Contact, Resume } from "./pages";
 
 // Construct our main GraphQL API endpoint
@@ -47,6 +48,7 @@ function App() {
         <Route exact path="/Resume" component={Resume} />
         {/* <Route exact path="/saved" component = {SavedRecipes}/> */}
       </Router>
+      <Footer/>
     </ApolloProvider>
   );
 }
