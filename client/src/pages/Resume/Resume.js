@@ -24,9 +24,9 @@ export default function Resume() {
         Resume
       </h3>
       <div className="container d-flex justify-content-end">
-        <a className="btn btn-primary " target="_blank" href="https://drive.google.com/file/d/1aJuxZFj6LHLKlxx4XYPekEiUYh65J-zk/view?usp=sharing" download>
+        <button className="btn btn-primary " target="_blank" href="https://drive.google.com/file/d/1aJuxZFj6LHLKlxx4XYPekEiUYh65J-zk/view?usp=sharing" >
           Download
-        </a>
+        </button>
       </div>
       <div className="container-fluid d-flex flex-wrap p-2 mt-5">
         <div style={styles.proficency}>
