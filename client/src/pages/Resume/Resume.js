@@ -3,6 +3,7 @@ import React from "react";
 import frontendProficiencies from "../../utils/database/front-prof";
 import backendProficiencies from "../../utils/database/back-prof";
 import FrontProf from "./prof/FrontProf";
+import {Button} from "react-bootstrap"
 
 const styles = {
   outterDiv: {
@@ -24,9 +25,9 @@ export default function Resume() {
         Resume
       </h3>
       <div className="container d-flex justify-content-end">
-        <button className="btn btn-primary " target="_blank" href="https://drive.google.com/file/d/1aJuxZFj6LHLKlxx4XYPekEiUYh65J-zk/view?usp=sharing" >
+        <Button target="_blank" href="https://drive.google.com/file/d/1aJuxZFj6LHLKlxx4XYPekEiUYh65J-zk/view?usp=sharing" >
           Download
-        </button>
+        </Button>
       </div>
       <div className="container-fluid d-flex flex-wrap p-2 mt-5">
         <div style={styles.proficency}>
