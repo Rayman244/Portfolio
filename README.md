@@ -5,10 +5,10 @@
 This is a portfolio I have built in order to try to get a job.Completely built using React this is one of my favorite projects to work on. leveraging Bootstrap this site is mobile responsive and able to be viewed on any device with ease 
 
 ## Installation
- No Installation nessasary go to https://rayman244.github.io/portfolio4/
+ No Installation nessasary go to https://agile-bastion-82148.herokuapp.com
 
 ## Usage
-![Full site](src/assets/imgs/readme/home.png)
+![Full site](client/src/assets/imgs/readme/home.png)
 
 ## Credits
 Penn University Bootcamp
